@@ -1,0 +1,24 @@
+/* odd: impair
+even: pair
+*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
+}
+.second {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.second > div {
+  border: 1px solid red;
+  padding: 30px;
+}
+.container > div {
+  background-color: #eee;
+  padding: 80px;
+}
+.container > div:nth-child(even) {
+  background-color: #ddd;
+}

@@ -1,0 +1,39 @@
+.flex-item {
+  background-color: blue;
+  color: white;
+  width: 400px;
+  height: 200px;
+  /* flex: 1; */
+  text-align: center;
+  line-height: 200px;
+  font-size: 24px;
+}
+.flex-item1 {
+  /* flex: 3; */
+  background-color: red;
+  width: 400px;
+  height: 200px;
+  color: white;
+  text-align: center;
+  line-height: 200px;
+  font-size: 24px;
+}
+
+.flex-container {
+  display: flex;
+  /*Alignement */
+  /* justify-content: 
+flex-start
+flex-end
+space-between
+spae-around
+center*/
+  justify-content: space-between;
+  /* Direction */
+  /*  flex-direction: column, row, row-reverse, column-reverse; */
+  /* flex-direction: row; */
+  flex-flow: row wrap;
+  list-style: none;
+  background-color: black;
+  height: 600px;
+}

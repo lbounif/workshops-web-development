@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  text-align: center;
+  background-color: blueviolet;
+  padding: 60px;
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: blue;
+}
+.navigation a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 20px;
+}
+.navigation a:hover {
+  background-color: black;
+}
+main {
+  display: flex;
+  height: 800px;
+}
+aside {
+  flex: 30%;
+  background-color: rgb(139, 137, 133);
+}
+section {
+  flex: 70%;
+}
+
+footer {
+  background-color: blue;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
