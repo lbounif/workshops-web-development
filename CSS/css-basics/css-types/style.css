@@ -1,0 +1,7 @@
+h1 {
+  color: brown;
+}
+p {
+  color: blue;
+  border: 2px dashed blue;
+}

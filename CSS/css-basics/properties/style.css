@@ -1,0 +1,43 @@
+.double {
+  border: 3px double green;
+}
+.myclass {
+  border: 1px outse;
+}
+.mydiv {
+  /* background-color: darkblue;*/
+  background-image: url("./img/gato-citron.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.div1 {
+  width: 50%;
+  height: 200px;
+  background-color: lightcoral;
+}
+#element {
+  background-color: lightcoral;
+  width: 200px;
+  height: 200px;
+  border: 10px solid blue;
+  padding: 20px;
+  margin: 50px;
+}
+.fonts {
+  /* font-family: "Times New Roman", Times, serif; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Oswald", sans-serif;
+}
+.mydiv > p {
+  font-family: "Zen Tokyo Zoo", cursive;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  background-color: lightgreen;
+}
+a:active {
+  color: yellow;
+}
